@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Recoleta;
+    src: url(./assets/fonts/Recoleta-RegularDEMO.otf);
+}
+
+body{
+    background-color: #fff9f1;
+}
+
+a{
+    text-decoration: none;
+    color: #121212;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    outline: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 30px 80px;
+    font-weight: 500;
+}
+
+.logo{
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.logo a{
+    font-weight: 600;
+    font-size: small;
+}
+
+span{
+    color: #f4b051;
+}
+
+
+.logo img{
+    width: 2rem;
+}
+
+.nav-links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links ul li{
+    font-weight: 600;
+    font-size: small;
+}
+
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.shop{
+    border: 1.5px solid #c08737;
+    border-radius: 50px;
+    padding: 7px 8px;
+}
+
+button{
+    background-color: #f4b051;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #f8f8f8;
+    border: none;
+}
+
+/* .banner{
+    display: flex;
+    margin: 100px;
+    line-height: 1.7;
+} */
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px;
+}
+
+.discover{
+    width: 40%;
+    line-height: 1.5;
+    /* background-color: red; */
+}
+
+.discover h1, span{
+    font-family: Recoleta;
+    font-weight: 650;
+    font-size: 45px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.discover p{
+    margin: 20px 0;
+    font-size: smaller;
+
+}
+
+.img img{
+    margin-right: 100px;
+    width: 25rem;
+    position: relative;
+}
+
+.btn{
+    display: flex;
+    gap: 20px;
+}
+
+.search{
+    display: flex;
+    gap: 10px;
+    background-color: transparent;
+    color: #121212;
+    border: 2px solid #f4b051;
+    font-weight: 600;  
+}
+
+
+.dish{
+  background-color: #fbf8e961;
+  text-align: center;
+  width: 200px;
+  padding:0 10px;
+  padding-bottom: 5px;
+  position: absolute;
+  box-shadow: 1px 0.5px 3px #797979;
+  right: 80px;
+  bottom: 50px;
+border-radius: 10px;
+}
+
+.dish-img{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.dish-img img{
+    width: 100px;
+}
+
+.chinese{
+    margin-bottom: 10px; 
+}
+.chinese h2{
+    font-size: 15px;
+}
+
+.chinese p{
+    font-size: 10px;
+}
+
+.rating{
+    display: flex;
+     justify-content: center;
+     gap: 20px;
+    margin-top: 10px;     
+}
+
+.rating p{
+    font-size: 10px;
+}
+
+.star{
+    color: #f4b051;
+    
+}
+
